@@ -33,7 +33,7 @@ nav ul li a {
 
 /* Estilo para el inicio */
 #inicio {
-  background-color: #d8bfd8;
+  background-color: #d2b48c;
   padding: 20px;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 
 /* Estilo para la seccion tipo de drogas */
 #tipos {
-  background-color: #d8bfd8;
+  background-color: #d2b48c;
   padding: 20px;
 }
 
@@ -79,7 +79,7 @@ nav ul li a {
 
 /* Estilo para la seccion efectos de las drogas */
 #efectos {
-  background-color: #d8bfd8;
+  background-color: #d2b48c;
   padding: 20px;
 }
 
@@ -102,7 +102,7 @@ nav ul li a {
 
 /* Estilo para la seccion consecuencias de las drogas */
 #consecuencias {
-  background-color: #d8bfd8;
+  background-color: #d2b48c;
   padding: 20px;
 }
 
@@ -126,7 +126,7 @@ nav ul li a {
 
 /* Estilo para la seccion prevencion */
 #prevencion {
-  background-color: #d8bfd8;
+  background-color: #d2b48c;
   padding: 20px;
 }
 
@@ -159,7 +159,7 @@ section {
 
 /* Estilos para el formulario */
 #formulario {
-  background-color: #d8bfd8;
+  background-color: #d2b48c;
   padding: 20px;
 }
 

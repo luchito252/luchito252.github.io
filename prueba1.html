@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Página sobre las drogas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Di no a las drogas</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#tipos">Tipos de drogas</a></li>
+      <li><a href="#efectos">Efectos de las drogas</a></li>
+	  <li><a href="#consecuencias">Consecuencias</a></li>
+      <li><a href="#prevencion">Prevención</a></li>
+	  <li><a href="#formulario">Formulario</a></li>
+    </ul>
+  </nav>
+  
+  <section id="inicio">
+    <h2>Bienvenido a nuestra página sobre las drogas</h2>
+    <p>Las drogas son sustancias que, cuando se introducen en el organismo, actúan sobre el sistema nervioso central. Esto provoca cambios que pueden afectar a la conducta, el estado de ánimo o la percepción.</p>
+  </section>
+  
+  
+  <section id="tipos">
+  <h2>Tipos de drogas</h2>
+  <ul>
+    <li><strong>Alcohol:</strong> El alcohol es una droga legal y de consumo extendido en muchas partes del mundo. Puede tener efectos sedantes y depresores en el sistema nervioso central.</li>
+	<img src="imagenes/alcohol.jpg" alt="Imagen de Alcohol" class="droga-imagen"> 
+    <li><strong>Ayahuasca:</strong> La ayahuasca es una bebida tradicional utilizada en ciertas ceremonias y rituales. Contiene componentes psicoactivos y se considera un alucinógeno.</li>
+	<img src="imagenes/ayahuasca.jpeg" alt="Imagen de Ayahuasca" class="droga-imagen">
+    <li><strong>Cannabis o Marihuana:</strong> El cannabis es una planta que contiene sustancias psicoactivas, siendo la más conocida el delta-9-tetrahidrocannabinol (THC). Se consume principalmente fumando los cogollos secos de la planta.</li>
+	<img src="imagenes/canabis.jpg" alt="Imagen de Cannabis" class="droga-imagen">
+    <li><strong>Depresores:</strong> Los depresores son drogas que ralentizan la actividad del sistema nervioso central, disminuyendo la función cerebral y produciendo efectos sedantes. Ejemplos de depresores son los tranquilizantes, sedantes y los opioides.</li>
+	<img src="imagenes/depresores.png" alt="Imagen de Depresores" class="droga-imagen">
+    <li><strong>Cocaína:</strong> La cocaína es un estimulante que se deriva de las hojas de coca. Tiene efectos estimulantes en el sistema nervioso central y puede ser altamente adictiva.</li>
+	<img src="imagenes/cocaina.jpeg" alt="Imagen de Cocaína" class="droga-imagen">
+    <li><strong>Alucinógenos:</strong> Los alucinógenos son drogas que alteran la percepción, el pensamiento y la conciencia. Ejemplos de alucinógenos incluyen el LSD, los hongos alucinógenos y la mescalina.</li>
+	<img src="imagenes/alucinogenos.jpg" alt="Imagen de Alucinógenos" class="droga-imagen">
+    <li><strong>Heroína:</strong> La heroína es un opioide sintético derivado de la morfina. Es una droga altamente adictiva y puede tener efectos devastadores en la salud física y mental de las personas que la consumen.</li>
+	<img src="imagenes/heroina.jpg" alt="Imagen de heroína" class="droga-imagen">
+  </ul>
+</section>
+
+  
+  <section id="efectos">
+    <h2>Efectos de las drogas</h2>
+    <ol>
+      <li>- Estado de excitación motora y aumento del nivel de actividad de la persona.</li>
+      <li>- Cambios emocionales variados que pueden llegar a provocar crisis de ansiedad u otras alteraciones.</li>
+      <li>- Aumento inicial de la capacidad de atención y de la concentración, que permiten un aparente mayor rendimiento intelectual, aunque este efecto es pasajero.</li>
+      <li>- Aumento de las frecuencias cardiaca y respiratoria así como de la tensión arterial, lo que favorece la aparición de enfermedades cardiacas y respiratorias.</li>
+    </ol>
+  </section>
+  
+  
+  <section id="consecuencias">
+    <h2>Consecuencias o riesgos de las drogas</h2>
+    <ul>
+      <li>Las drogas pueden tener efectos negativos en la salud física y mental de las personas.</li>
+      <li>El consumo excesivo de alcohol puede causar daño hepático, problemas cardíacos y trastornos mentales.</li>
+      <li>El uso de drogas puede llevar a la adicción y a problemas de dependencia.</li>
+      <li>Algunas drogas aumentan el riesgo de accidentes de tráfico y comportamientos peligrosos.</li>
+      <li>El consumo de drogas puede tener repercusiones legales y sociales negativas.</li>
+    </ul>
+  </section>
+  
+  
+
+  <section id="prevencion">
+    <h2>Prevención</h2>
+    <p>La prevención es fundamental para evitar los problemas asociados con el consumo de drogas. Aquí tienes un enlace a un video de prevención sobre las drogas:</p>
+    <a href="https://youtu.be/JndZ3y-KVLQ" target="_blank">Video de prevención sobre las drogas</a>
+  </section>
+
+  <section id="formulario">
+    <form>
+	<label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+	
+	<label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+	
+	<label for="pais">País:</label>
+	<select id="pais" name="pais" required>
+		<option value="Argentina">Argentina</option>
+		<option value="Brasil">Brasil</option>
+		<option value="Chile">Chile</option>
+		<option value="Colombia">Colombia</option>
+		<option value="México">México</option>
+		<option value="Perú">Perú</option>
+		<option value="Otros">Otros</option>
+	</select>
+	
+	<label>Género:</label>
+	<label for="hombre">
+		<input type="radio" id="hombre" name="genero" value="hombre" required> Hombre
+	</label>
+	<label for="mujer">
+		<input type="radio" id="mujer" name="genero" value="mujer" required> Mujer
+	</label>
+
+  <input type="submit" value="Enviar">
+	</form>
+  </section>
+  
+  <footer>
+    <p>© 2023 Página sobre las drogas</p>
+  </footer>
+</body>
+</html>
+

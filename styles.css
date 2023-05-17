@@ -1,0 +1,215 @@
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #808080;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Estilo para el inicio */
+#inicio {
+  background-color: #d8bfd8;
+  padding: 20px;
+}
+
+#inicio h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#inicio p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Estilo para la seccion tipo de drogas */
+#tipos {
+  background-color: #d8bfd8;
+  padding: 20px;
+}
+
+#tipos h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#tipos ul {
+  list-style-type: disc;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+#tipos li {
+  margin-bottom: 10px;
+}
+
+#tipos li strong {
+  font-weight: bold;
+}
+
+/* Estilo para la seccion efectos de las drogas */
+#efectos {
+  background-color: #d8bfd8;
+  padding: 20px;
+}
+
+#efectos h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#efectos ol {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+#efectos li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para la seccion consecuencias de las drogas */
+#consecuencias {
+  background-color: #d8bfd8;
+  padding: 20px;
+}
+
+#consecuencias h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#consecuencias ul {
+  list-style-type: disc;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+#consecuencias li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para la seccion prevencion */
+#prevencion {
+  background-color: #d8bfd8;
+  padding: 20px;
+}
+
+#prevencion h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#prevencion p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#prevencion a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#prevencion a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para las secciones */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+#formulario {
+  background-color: #d8bfd8;
+  padding: 20px;
+}
+
+#formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+#formulario label {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#formulario input,
+#formulario select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#formulario input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#formulario input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+body {
+  background-color: #e6e6fa;
+}
+
+/* Estilo para las imagenes */
+.droga-imagen {
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* Permite que la altura se ajuste proporcionalmente */
+  border: 1px solid black; /* Ejemplo de borde */
+  margin-bottom: 10px; /* Ejemplo de margen inferior */
+  /* Agrega más propiedades de estilo según tus preferencias */
+}
